@@ -1,0 +1,26 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MoneyMaker.Api/bin/Debug/net8.0
+/MoneyMaker.Api/obj/Debug/net8.0/ref
+/MoneyMaker.Api/obj/Debug/net8.0/refint
+/MoneyMaker.Api/obj/Debug/net8.0/staticwebassets
+/MoneyMaker.Api/obj/Debug/net8.0/apphost.exe
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.AssemblyInfo.cs
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.AssemblyInfoInputs.cache
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.csproj.BuildWithSkipAnalyzers
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.csproj.CopyComplete
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.csproj.CoreCompileInputs.cache
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.csproj.FileListAbsolute.txt
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.dll
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.genruntimeconfig.cache
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.MvcApplicationPartsAssemblyInfo.cache
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.MvcApplicationPartsAssemblyInfo.cs
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.pdb
+/MoneyMaker.Api/obj/Debug/net8.0/MoneyMaker.Api.sourcelink.json
+/MoneyMaker.Api/obj/Debug/net8.0/staticwebassets.build.json
+/.vs/MoneyMaker/v17/.suo
+/.vs/MoneyMaker/FileContentIndex/39fed385-1462-4d99-8393-e95e38fe9dab.vsidx
+*.vsidx
+/.vs/MoneyMaker/config
