@@ -12,4 +12,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MoneyMaker.Core\MoneyMaker.Core.csproj" />
+    <ProjectReference Include="..\MoneyMaket.Infrastructure\MoneyMaket.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

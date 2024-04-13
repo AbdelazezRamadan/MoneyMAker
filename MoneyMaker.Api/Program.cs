@@ -1,6 +1,9 @@
-using Microsoft.AspNetCore.Authentication.Negotiate;
+using Microsoft.AspNetCore.Identity;
+using MoneyMaker.Core.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
+var configuration = new ConfigurationSettings();
+builder.Configuration.Bind(configuration);
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -23,5 +26,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapIdentityApi<IdentityUser>();
 
 app.Run();
